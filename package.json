@@ -1,7 +1,7 @@
 {
-  "name": "react-multistep",
+  "name": "react-multistep-custom",
   "version": "6.0.0-alpha-Fork",
-  "description": "Responsive ReactJS multistep form component",
+  "description": "A fork of the Responsive ReactJS multistep form component repo",
   "main": "dist/index.js",
   "files": [
     "build/*.d.ts",
