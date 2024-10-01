@@ -1,6 +1,6 @@
 {
   "name": "react-multistep-custom",
-  "version": "6.0.0-alpha-Fork",
+  "version": "1.0.0",
   "description": "A fork of the Responsive ReactJS multistep form component repo",
   "main": "dist/index.js",
   "files": [
@@ -21,11 +21,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/srdjan/react-multistep"
+    "url": "https://github.com/EMedina24/react-multistep"
   },
-  "homepage": "https://github.com/srdjan/react-multistep",
+  "homepage": "https://github.com/EMedina24/react-multistep",
   "bugs": {
-    "url": "https://github.com/srdjan/react-multistep/issues"
+    "url": "https://github.com/EMedina24/react-multistep/issues"
   },
   "dependencies": {
   },
