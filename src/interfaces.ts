@@ -13,6 +13,9 @@ export interface MultiStepStyles {
 
 export interface MultiStepProps {
   styles: MultiStepStyles
+  nextButtonClass?: string
+  prevButtonClass?: string
+  topNavClass?: string
   children: React.ReactElement[]
 }
 

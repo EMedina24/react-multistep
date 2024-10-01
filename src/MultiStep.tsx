@@ -57,7 +57,8 @@ export default function MultiStep(props: MultiStepProps) {
   const handleOnClick = (i: number) => childIsValid ? setActive(i) : console.log('Error: Invalid state')
 
   const renderTopNav = () =>
-    <ol style={styles.topNav}>
+    <ol style={styles.topNav}
+     className={`top-nav ${props.topNavClass}`}>
       {children.map((c, i) =>
         <li style={styles.topNavStep} onClick={() => handleOnClick(i)} key={i}>
           { topNavState[i] === 'doing' ? <span style={styles.doing}>{c.props.title ?? i + 1}</span> :
@@ -70,10 +71,12 @@ export default function MultiStep(props: MultiStepProps) {
     <div style={styles.section} >
       <button onClick={handlePrevious}
               style={styles.prevButton}
+              className={`prev-button ${props.prevButtonClass}`}
               disabled={bottomNavState.prevDisabled}>
         <span>&#60;</span>
       </button>
       <button onClick={handleNext}
+              className={`next-button ${props.nextButtonClass}`}
               style={bottomNavState.hideLast ? { display: 'none' } : styles.nextButton}
               disabled={bottomNavState.nextDisabled}>
         <span>&#62;</span>
