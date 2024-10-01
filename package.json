@@ -1,6 +1,6 @@
 {
   "name": "react-multistep",
-  "version": "6.0.0-alpha",
+  "version": "6.0.0-alpha-Fork",
   "description": "Responsive ReactJS multistep form component",
   "main": "dist/index.js",
   "files": [
@@ -12,9 +12,9 @@
   "types": "build/index.d.ts",
   "license": "MIT",
   "author": {
-    "name": "@djidja8",
-    "email": "srdjan@timok.com",
-    "url": "https://github.com/srdjan"
+    "name": "eddiejm",
+    "email": "contact@medina-digital.com",
+    "url": "https://github.com/EMedina24/react-multistep"
   },
   "keywords": [
     "react, reactjs, responsive, component"
